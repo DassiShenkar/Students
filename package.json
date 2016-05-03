@@ -1,0 +1,19 @@
+{
+  "name": "students_ws",
+  "version": "1.0.0",
+  "description": "An app for managing students information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DassiShenkar/Students.git"
+  },
+  "author": "Dassi Rosen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DassiShenkar/Students/issues"
+  },
+  "homepage": "https://github.com/DassiShenkar/Students#readme"
+}
