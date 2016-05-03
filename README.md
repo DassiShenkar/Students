@@ -1,2 +1,2 @@
 # Students
-Manage students information
+An app for managing students information
