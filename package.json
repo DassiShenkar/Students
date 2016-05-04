@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DassiShenkar/Students/issues"
   },
-  "homepage": "https://github.com/DassiShenkar/Students#readme"
+  "homepage": "https://github.com/DassiShenkar/Students#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
