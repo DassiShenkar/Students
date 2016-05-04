@@ -1,0 +1,36 @@
+{
+    "1" : { 
+        "firstName": "Yeal", 
+        "lastName": "Levi", 
+        "gender": "female", 
+        "grade": 95
+    },
+
+    "2" : { 
+        "firstName": "Eyal", 
+        "lastName": "Cohen", 
+        "gender": "male", 
+        "grade": 75
+    },
+
+    "3" : { 
+        "firstName": "Dan", 
+        "lastName": "Amit", 
+        "gender": "male", 
+        "grade": 96
+    },
+
+    "4" : { 
+        "firstName": "Noa", 
+        "lastName": "Bar", 
+        "gender": "female", 
+        "grade": 98
+    },
+
+    "5" : { 
+        "firstName": "Anat", 
+        "lastName": "Gonen", 
+        "gender": "female", 
+        "grade": 85
+    }
+};
