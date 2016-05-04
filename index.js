@@ -5,15 +5,10 @@ var app = express();
 var port = process.env.PORT || 3000;
 
 app.set('json spaces', 4);
+app.use(express.static('views'));
 
 app.get('/', function(request, response, next) {
   request.next();
-});
-
-app.get('/find', function(request, response) {
-  var url = url.parse(request.url, true);
-  var query = url.query;
-  response.send('Result: ');
 });
 
 app.param('studentID', function(request, response, next, value) {
@@ -21,6 +16,7 @@ app.param('studentID', function(request, response, next, value) {
 });
 
 app.get('/student/:studentID', function(request, response) {
+  var id = request.param.studentID;
   response.status(200).json({studentID: "1", grade: "90"});
 });
 
