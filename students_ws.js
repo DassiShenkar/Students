@@ -3,7 +3,7 @@
 var _ = require('lodash');
 var express = require('express');
 var EventEmitter = require('events').EventEmitter;
-var eventsConfig = require('./config');
+var eventsConfig = require('./config').events;
 
 class StudentsQuery extends EventEmitter {
     constructor(data) {
