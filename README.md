@@ -5,8 +5,11 @@ A service for managing students information
 returns a list of all the students
 https://students-ws.herokuapp.com/
 
-## student object structure:
-
+## GetStudentById
+returns student info when given id or an error message 
+if it doesn't find a match.</br>
+https://students-ws.herokuapp.com/student/572a8098c80eb653c302d3e0
+will return:
     {
         "_id": "572a8098c80eb653c302d3e0",
         "firstName": "Yael",
@@ -14,11 +17,6 @@ https://students-ws.herokuapp.com/
         "gender": "female",
         "grade": 95
     }
-
-## GetStudentById
-returns student info when given id or an error message 
-if it doesn't find a match.</br>
-https://students-ws.herokuapp.com/student/572a80a8c80eb653c302d3e5
 
 ## GetTopStudents
 returns a list of students who's everage grade is over 95 
