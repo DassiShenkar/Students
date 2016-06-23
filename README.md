@@ -10,6 +10,7 @@ returns student info when given id or an error message
 if it doesn't find a match.</br>
 https://students-ws.herokuapp.com/student/572a8098c80eb653c302d3e0
 will return:
+
     {
         "_id": "572a8098c80eb653c302d3e0",
         "firstName": "Yael",
